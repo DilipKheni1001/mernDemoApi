@@ -1,6 +1,18 @@
-import express from 'express';
-import { itemRouter } from './resources/routes/items.router';
+'use strict';
 
-export const restRouter = express.Router();
-restRouter.use('/items', itemRouter);
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9hcGkvaW5kZXguanMiXSwibmFtZXMiOlsiZXhwcmVzcyIsIml0ZW1Sb3V0ZXIiLCJyZXN0Um91dGVyIiwiUm91dGVyIiwidXNlIl0sIm1hcHBpbmdzIjoiQUFBQSxPQUFPQSxPQUFQLE1BQW9CLFNBQXBCO0FBQ0EsU0FBU0MsVUFBVCxRQUEyQixpQ0FBM0I7O0FBRUEsT0FBTyxNQUFNQyxhQUFhRixRQUFRRyxNQUFSLEVBQW5CO0FBQ1BELFdBQVdFLEdBQVgsQ0FBZSxRQUFmLEVBQXlCSCxVQUF6QiIsImZpbGUiOiJpbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBleHByZXNzIGZyb20gJ2V4cHJlc3MnO1xuaW1wb3J0IHsgaXRlbVJvdXRlciB9IGZyb20gJy4vcmVzb3VyY2VzL3JvdXRlcy9pdGVtcy5yb3V0ZXInO1xuXG5leHBvcnQgY29uc3QgcmVzdFJvdXRlciA9IGV4cHJlc3MuUm91dGVyKCk7XG5yZXN0Um91dGVyLnVzZSgnL2l0ZW1zJywgaXRlbVJvdXRlcik7XG4iXX0=
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.restRouter = undefined;
+
+var _express = require('express');
+
+var _express2 = _interopRequireDefault(_express);
+
+var _items = require('./resources/routes/items.router');
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var restRouter = exports.restRouter = _express2.default.Router();
+restRouter.use('/items', _items.itemRouter);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9hcGkvaW5kZXguanMiXSwibmFtZXMiOlsicmVzdFJvdXRlciIsImV4cHJlc3MiLCJSb3V0ZXIiLCJ1c2UiLCJpdGVtUm91dGVyIl0sIm1hcHBpbmdzIjoiOzs7Ozs7O0FBQUE7Ozs7QUFDQTs7OztBQUVPLElBQU1BLGtDQUFhQyxrQkFBUUMsTUFBUixFQUFuQjtBQUNQRixXQUFXRyxHQUFYLENBQWUsUUFBZixFQUF5QkMsaUJBQXpCIiwiZmlsZSI6ImluZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGV4cHJlc3MgZnJvbSAnZXhwcmVzcyc7XG5pbXBvcnQgeyBpdGVtUm91dGVyIH0gZnJvbSAnLi9yZXNvdXJjZXMvcm91dGVzL2l0ZW1zLnJvdXRlcic7XG5cbmV4cG9ydCBjb25zdCByZXN0Um91dGVyID0gZXhwcmVzcy5Sb3V0ZXIoKTtcbnJlc3RSb3V0ZXIudXNlKCcvaXRlbXMnLCBpdGVtUm91dGVyKTtcbiJdfQ==
