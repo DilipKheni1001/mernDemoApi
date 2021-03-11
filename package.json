@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A Music Restful API for Egghead Course: Secure Restful API with Nodejs, and Mongoose",
   "main": "index.js",
-  "type": "module",
+  
   "scripts": {
     "start": "node src/app.js --exec babel-node --presets env",
     "build": "babel src -d dist --source-maps inline --copy-files",
